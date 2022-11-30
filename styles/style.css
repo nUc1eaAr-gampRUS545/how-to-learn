@@ -152,11 +152,11 @@
   z-index: 5;
 }
 .table__cell{
-  width: 250px;
-  position: relative;
-  display: flex;
-  height: 100%; 
-  flex-direction: column;
+  width:250px;
+  position:relative;
+  display:flex;
+  height:100%;
+  flex-direction:column;
 }
 .indent{
   margin-top: 20px;
