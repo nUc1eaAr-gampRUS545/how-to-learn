@@ -153,13 +153,11 @@
 
 }
 .table__cell{
-  width:250px;
+  width: 250px;
   position: relative;
-  display:flex;
-  height:100%; 
-  flex-direction: column;
-
-}
+  display: flex;
+  height: 100%; 
+  flex-direction: column;}
 .indent{
   margin-top: 20px;
 }
@@ -333,7 +331,7 @@ font-size:18px;
   height: 65%;
   color: #f2f2f2;
   margin: 18px 0 18px 0;
-  align-items: flex-end
+  align-items: flex-end;
 }
 .footer__columns__info{
   display:flex;
@@ -366,7 +364,6 @@ font-size:18px;
   width: 25%;
   text-align: left;
   justify-content: flex-start;
-  align-items:flex-end;
   flex-direction: column;
   align-items: flex-end;
 }
