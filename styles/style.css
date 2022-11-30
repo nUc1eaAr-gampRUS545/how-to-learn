@@ -150,14 +150,14 @@
   justify-content: space-between;
   flex-direction: row;
   z-index: 5;
-
 }
 .table__cell{
   width: 250px;
   position: relative;
   display: flex;
   height: 100%; 
-  flex-direction: column;}
+  flex-direction: column;
+}
 .indent{
   margin-top: 20px;
 }
