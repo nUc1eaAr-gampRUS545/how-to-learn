@@ -11,19 +11,19 @@
   <div class="page">
     <logo class="logo logo_key_value">
       <img src="./images/logo_place_header.svg"></logo>
-    <header class="header">
-      <div class=" header__title">Научиться учиться</div>
-      <div class=" header__subtitle">
+    <header class="header" id="Главная">
+      <section  class=" header__title">Научиться учиться</section>
+      <section class=" header__subtitle">
         Какие современные и эффективные подходы<br>к 
         обучению вы можете использовать в своей<br>жизни?
-      </div>
-      <div class="header__link">
+      </section>
+      <nav class="header__link">
         <a href="#" class="typorgraphy__link">Узнать→</a>
-      </div>
-      <div class="header__main-illustration">
+      </nav>
+      <section class="header__main-illustration">
         <img src="./images/header-image.png" alt="'Опять двойка' 1952г. автор - Федор Решетников">
-      </div>
-      <div class="header__square-pic"></div>
+      </section>
+      <section class="header__square-pic"></section>
     </header>
     <description class="two-columns__main-text">
       <section class="two-columns__brief "> Главные проблемы<br>в обучении</section>
@@ -94,7 +94,7 @@
   </div>
 
     </digits>
-    <content class="feynman">
+    <content class="feynman" id="Концепция">
       <section class="feynman">
         <section class="feynman__title">Метод Фейнмана</section>
         <section class="feynman__subtitle feyman__typography">Выучить и не забыть</section>
@@ -170,9 +170,15 @@
         <div class="footer__author">&copy Виктор Абанькин</div>
         <div class="footer__columns__info">
           <div class="footer__column-heading">О Практикуме</div>
-          <div class="footer__column-links">Главная</div>
-            <div class="footer__column-links">Концепция</div>
-            <div class="footer__column-links">Наставники</div>
+          <nav class="footer__column-links">
+            <a href="#Главная" class="navigation">Главная</a>
+          </nav>
+            <nav  class="footer__column-links">
+              <a href="#Концепция" class="navigation">Концепция</a>
+            </nav>
+            <div class="footer__column-links">
+              <a href="#Концепция" class="navigation">Наставники</a>
+            </div>
         </div>
           <div class="footer__column__social">
             <div class="footer__column2-heading">Coцсети</div>

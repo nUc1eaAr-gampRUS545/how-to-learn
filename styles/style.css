@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:#f2f2f2
+  background-color:#f2f2f2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -362,4 +362,8 @@ font-size:18px;
 .typorgraphy__link__footer{
   color:#545454;
   text-decoration: none;
+}
+.navigation{
+  text-decoration: none;
+  color:#f2f2f2;
 }
