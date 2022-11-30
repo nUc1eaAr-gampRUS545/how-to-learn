@@ -60,7 +60,8 @@
   bottom:32px;
   line-height: 25px;
   z-index:1;
-  
+  width: 396px;
+  flex-direction: column;
 }
 .header__main-illustration{
   display: flex;
@@ -75,7 +76,7 @@
   position:absolute;
   display:flex;
   left:129px;
-  bottom:32px;
+  bottom:34px;
 }
 .two-columns__main-text
 {
@@ -234,7 +235,7 @@ font-size:18px;
   position:absolute;
   right: -210px;
   align-items: center;
-  margin-top: 14%;
+  margin-top: 23%;
   width: 877px;
   height: 877px;
 }
@@ -299,6 +300,7 @@ font-size:18px;
   width:100%;
   padding-bottom: 40px;
   padding-top:60px;
+  flex-basis: 711px
 }
 .footer__columns{
   width: 90%;
@@ -319,6 +321,7 @@ font-size:18px;
   color:#f2f2f2;
   margin:18px -225px 18px 0;
   margin-left: -50%;
+  margin-top:17%;
 }
 .footer__columns__info{
   display:flex;
