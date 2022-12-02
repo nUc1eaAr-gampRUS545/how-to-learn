@@ -96,7 +96,7 @@
 .two-columns{
   display: flex;
   position:relative;
-  margin: 100px auto 100px auto ;
+  margin: 100px auto 100px auto;
   width:100%;
   flex-direction: space-between;
 }
