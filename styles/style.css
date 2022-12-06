@@ -322,7 +322,6 @@ top: 50%;
   width:100%;
   padding-bottom: 40px;
   padding-top:60px;
-  overflow: hidden;
 }
 .footer__columns{
   width: 90%;
@@ -336,7 +335,6 @@ top: 50%;
   flex-direction: column;
   justify-content: space-between;
   min-height: 250px;
-  height: 100%;
   width: 50%;
 }
 .logo_place_footer{
@@ -348,7 +346,6 @@ top: 50%;
 .footer__author{
   display: flex;
   flex-direction: column;
-  width: 48%;
   position: relative;
   color: #fff;
   justify-content: flex-end;
