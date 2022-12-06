@@ -4,10 +4,10 @@
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   text-decoration:none;}
-p{
-  margin:0;
-}
-li{list-style-type: none;
+
+.zeroingout{
+  margin: 0;
+  list-style-type: none;
 }
   .logo{
   width:228px;
@@ -66,7 +66,7 @@ li{list-style-type: none;
   bottom: 0;
 }
 .header__link{
-  position: absolute;
+  position: relative;
   left: 68px;
   font-size:18px;
   font-weight:normal;
@@ -74,7 +74,7 @@ li{list-style-type: none;
   color: #2f80ed;
   text-decoration: none;
   line-height: 25px;
-  top: 50px;
+  bottom:24px;
 }
 .header__link:hover{
   color:#03c4fa;
@@ -100,37 +100,32 @@ li{list-style-type: none;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 80%;
+  margin-top: 100px;
+  width: 100%;
 }
 .two-columns{
   display: flex;
   position:relative;
   flex-direction: row;
   justify-content: space-between;
-  margin: 100px 0 0 0;
-  width:100%;
-  overflow: hidden;
+  margin:0;
+  min-height: 366px;
+  width:80%;
+  margin:0 auto 0 auto;
 }
 .two-columns__main-text{
   width:80%;
   min-width: 784px;
-  display:flex;
-  flex-direction: column;
 }
 .two-columns__brief
 {
-  display:flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  position: relative;
   font-size:18px;
   line-height: 1.2;
-  text-decoration: none;
   font-weight: normal;
   width:175px;
   color:#2f80ed;
   margin: 0;
-  
+
 }
 .two-column__span-accent{
   font-weight:600;
@@ -138,23 +133,31 @@ li{list-style-type: none;
   line-height:34px;
 }
 .two-column__paragraph{
-  width:100%;
   font-weight: normal;
   font-size:24px;
   line-height:34px;
 }
+.otstup{
+  margin:20px 0 20px 0;
+}
+.digits{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 .section-title{
-  margin-top:100px;
+  text-align: center;
   width:60%;
   margin-bottom: 0;
   line-height:1.15;
   font-size:60px;
   font-weight:600;
-  display: flex;
-  justify-content: center;
+  margin-top: 100px;
+  display: block;
 }
 .section-subtitle{
   line-height:34px;
+  text-align: center;
   width: 60%;
   font-size:24px;
   font-weight:normal;
@@ -162,15 +165,10 @@ li{list-style-type: none;
   justify-content: center;
   margin-top: 20px;
   margin-bottom: 0;
-}
-.digits{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
+  display: block;
 }
 .table{
-  margin-top: 60px;
+  margin-top: 0;
   width:1100px;
   position: relative;
   display: flex;
@@ -178,7 +176,6 @@ li{list-style-type: none;
   flex-direction: row;
   flex-wrap: wrap;
   z-index: 5;
-  overflow: hidden;
   margin-bottom: 100px;
   padding-left: 0;
 }
@@ -186,7 +183,6 @@ li{list-style-type: none;
   width:250px;
   position:relative;
   display:flex;
-  height:100%;
   flex-direction:column;
   margin-top: 60px;
 }
@@ -210,14 +206,14 @@ font-size:18px;
 .feynman{
   text-align: center;
   width:100%;
+  position: relative;
   background-color: #f2f2f2;
-  overflow: hidden;
   background-image: url(../images/feynman.png);
   background-repeat: no-repeat;
   background-size: 867px 637px;
   background-position:0% 100%;
   display: flex;
-  height: 890px;
+  min-height: 890px;
   align-items: center;
   flex-direction: column;
 }
@@ -239,15 +235,14 @@ font-size:18px;
   margin-top:60px;
 }
 .feyman__link{
-  right:0;
   position: absolute;
   color: #2f80ed;
   text-decoration: none;
   font-size:36px;
   line-height:51px;
   font-weight: normal;
-  margin-top: 50%;
-  margin-right: 48px;
+top: 50%;
+  right: 48px;
 }
 .feyman__link:hover{
   color:#03c4fa;
@@ -259,7 +254,7 @@ font-size:18px;
   display: flex;
   flex-direction: column;
   align-items:center;
-  z-index:-1;
+  z-index:0;
   overflow: hidden;
   padding-bottom: 90px;
   background-image: url("../images/kaufman-triangle.svg");
@@ -267,8 +262,8 @@ font-size:18px;
   background-repeat: no-repeat;
   background-size: 877px 877px;
 }
-.section-title_theme-dark
-{ 
+.section-title_theme_dark
+{
   display: flex;
   position: relative;
   line-height:1.15;
@@ -279,7 +274,7 @@ font-size:18px;
   margin-bottom: 20px;
 
   }
-.section-subtitle_theme-dark{
+.section-subtitle_theme_dark{
   display: flex;
   color:#fff;
   position: relative;
@@ -288,37 +283,36 @@ font-size:18px;
   font-size:24px;
   margin:0;
 }
-.table_theme-dark{
+.table_theme_dark{
   position: relative;
   display: flex;
-  width: 80%;
+  max-width:1100px;
+  margin:0 auto 0 auto;
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
   z-index: 5;
   padding-left: 0;
-  margin:0;
 }
-.table__cell_theme-dark{
+.table__cell_theme_dark{
   width:200px;
-  height: 120px;
   position: relative;
-  margin:0;
+  margin-bottom: 100px;
   margin-top: 80px;
 }
-.table__heading_theme-dark{
+.table__heading_theme_dark{
   color:#f2f2f2;
   line-height:1.15;
   font-weight:600;
   margin:0;
-  position: absolute;
+  position: relative;
   font-size:24px;
 
 
 }
-.table__text_theme-dark{
+.table__text_theme_dark{
   color:#f2f2f2;
-  margin-top:40px;
+  margin-top:20px;
   line-height:1.2;
   font-weight:normal;
   text-align: left;
@@ -339,15 +333,15 @@ font-size:18px;
   margin:0 auto 0 auto;
   justify-content: space-between;
 }
-.footer__column_content-copyright{
+.footer__column_content_copyright{
   display:flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 350px;
+  min-height: 250px;
   height: 100%;
   width: 50%;
 }
-.logo_place-footer{
+.logo_place_footer{
   display:flex;
   justify-content: flex-start;
   align-items: flex-start;
@@ -363,7 +357,7 @@ font-size:18px;
   margin-bottom: 18px;
 }
 
-.footer__columns_content-info{
+.footer__columns_content_info{
   display:flex;
   flex-direction: column;
 }
@@ -374,7 +368,7 @@ font-size:18px;
   font-weight: 600;
   margin:0 auto 20px 0;
 }
-.footer__column_content-social{
+.footer__column_content_social{
   color: #fff;
   margin:0;
   font-weight: normal;
@@ -395,7 +389,7 @@ font-size:18px;
 
 }
 .footer__column-link{
-  color:#545454;
+  color:#fff;
   text-decoration: none;
   line-height: 30px;
   font-size: 18px;
@@ -404,7 +398,7 @@ font-size:18px;
 
 }
 .footer__column-link:hover{
-color:#fff;
+color:#2f80ed;
 }
 .footer__social-icon{
   width: 16px;
