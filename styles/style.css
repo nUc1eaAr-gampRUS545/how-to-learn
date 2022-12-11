@@ -284,10 +284,7 @@ margin-bottom: 0;
   flex-basis: 711px;
 }
 .logo_place_footer{
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  width: 50%;
+  
 }
 .footer__author{
   display: flex;
@@ -295,10 +292,9 @@ margin-bottom: 0;
   position: relative;
   color: #fff;
   justify-content: flex-end;
-  margin-bottom: 18px;
-  margin-top: 18px;
+  margin: 18px  0;
   line-height: 25px;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: normal;
 }
 
