@@ -296,6 +296,10 @@ margin-bottom: 0;
   color: #fff;
   justify-content: flex-end;
   margin-bottom: 18px;
+  margin-top: 18px;
+  line-height: 25px;
+  font-size: 25px;
+  font-weight: normal;
 }
 
 .footer__columns_content_info{
